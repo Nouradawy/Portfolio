@@ -17,6 +17,9 @@ class MyAppBar extends StatelessWidget implements PreferredSizeWidget {
         Padding(
           padding: const EdgeInsets.only(left: 100.0,right: 50),
           child: Container(
+            decoration: BoxDecoration(
+              border: BorderDirectional(bottom: BorderSide(color: Colors.black))
+            ),
             alignment: Alignment.center,
             // we can set width here with conditions
             width: 1920,
